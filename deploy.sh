@@ -15,7 +15,7 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
-
+git branch -m main
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:boboyuki/vue3-todo-lab.git main:gh-pages
 

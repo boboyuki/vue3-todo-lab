@@ -2,7 +2,7 @@ const { defineConfig } = require("@vue/cli-service");
 const path = require("path")
 
 module.exports = defineConfig({
-  publicPath: process.env.NODE_ENV === "production" ? "/Vue3_todo_lab/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/vue3-todo-lab/" : "/",
   transpileDependencies: true,
   lintOnSave: false,
   configureWebpack: {
